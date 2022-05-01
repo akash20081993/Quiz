@@ -1,0 +1,37 @@
+body{
+    background-image:url("https://wallpaperaccess.com/full/2384073.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.intro-text{
+    margin:auto;
+    margin-top:20%;
+    text-align:center;
+}
+
+.first-quest, .second-quest, .third-quest, .fourth-quest{
+  position:absolute;
+  top:10px;
+}
+.header-text{
+    color:white;
+}
+
+.body-class{
+    background-image:url("https://tse2.mm.bing.net/th/id/OIP.54aDRJHlX7jC15ANjLWg-QHaEo?pid=ImgDet&rs=1");
+    background-size:cover;
+}
+
+.final-text{
+ margin:auto;
+ text-align:center;
+
+}
+.next-btn, .reset-btn{
+  margin-top:370px;
+}
+
+*{
+  box-sizing:border-box;
+}

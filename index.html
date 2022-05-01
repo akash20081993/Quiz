@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Awesome quiz</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="background-img">
+
+    <div class="intro-text">
+        <h1 class="header-text">Welcome to Akash's awesome Quiz</h1>
+        <button type = "button" class="btn btn-lg btn-warning" id="start-btn" >Click to start</button>
+    </div>
+
+  <div class="first-quest">
+      <h2>In which Italian city can you find the Colosseum</h2> <br>
+      <h3>Venice</h3> <br>
+     <button type = "button" id = "first-ans1" class="btn btn-lg btn-warning first-btn" >Select Answer</button> <br><br>
+      <h3>Rome</h3> <br>
+      <button type="button" id= "first-ans-correct" class = "btn btn-lg btn-warning first-btn">Select Answer</button> <br><br>
+      <h3>Naples</h3> <br>
+      <button type="button" id="first-ans3" class = "btn btn-lg btn-warning first-btn">Select Answer</button> <br><br>
+      <h3>Milan</h3> <br>
+      <button type="button" id="first-ans4" class = "btn btn-lg btn-warning first-btn">Select Answer</button> <br><br>
+  </div>
+  <div class="second-quest">
+      <h2>What is the largest canyon in the world?</h2> <br>
+      <h3>Verdon Gorge, France</h3> <br>
+     <button type = "button" id = "second-ans1" class="btn btn-lg btn-warning second-btn" >Select Answer</button> <br><br>
+      <h3>King’s Canyon, Australia</h3> <br>
+      <button type="button" id= "second-ans2" class = "btn btn-lg btn-warning second-btn">Select Answer</button> <br><br>
+      <h3>Grand Canyon, USA</h3> <br>
+      <button type="button" id="second-ans-correct" class = "btn btn-lg btn-warning second-btn">Select Answer</button> <br><br>
+      <h3>Fjaðrárgljúfur Canyon, Iceland</h3> <br>
+      <button type="button" id="second-ans4" class = "btn btn-lg btn-warning second-btn">Select Answer</button> <br><br>
+  </div>
+  <div class="third-quest">
+      <h2>In which museum can you find Leonardo Da Vinci’s Mona Lisa?</h2> <br>
+      <h3>Le Louvre</h3> <br>
+     <button type = "button" id = "third-ans-correct" class="btn btn-lg btn-warning third-btn" >Select Answer</button> <br><br>
+      <h3>Uffizi Museum</h3> <br>
+      <button type="button" id= "third-ans2" class = "btn btn-lg btn-warning third-btn">Select Answer</button> <br><br>
+      <h3>British Museum</h3> <br>
+      <button type="button" id="third-ans3" class = "btn btn-lg btn-warning third-btn">Select Answer</button> <br><br>
+      <h3>Metropolitan Museum of Art</h3> <br>
+      <button type="button" id="third-ans4" class = "btn btn-lg btn-warning third-btn">Select Answer</button> <br><br>
+  </div>
+
+  <div class="fourth-quest">
+      <h2>In the Big Bang Theory, what is the name of Sheldon and Leonard’s neighbour?</h2> <br>
+      <h3>Penny</h3> <br>
+     <button type = "button" id = "fourth-ans-correct" class="btn btn-lg btn-warning fourth-btn" >Select Answer</button> <br><br>
+      <h3>Patty</h3> <br>
+      <button type="button" id= "fourth-ans2" class = "btn btn-lg btn-warning fourth-btn">Select Answer</button> <br><br>
+      <h3>Lily</h3> <br>
+      <button type="button" id="fourth-ans3" class = "btn btn-lg btn-warning fourth-btn">Select Answer</button> <br><br>
+      <h3>Jessie</h3> <br>
+      <button type="button" id="fourth-ans4" class = "btn btn-lg btn-warning fourth-btn">Select Answer</button> <br><br>
+  </div>
+
+  <div>
+      <button type="button" class="next-btn btn btn-lg btn-warning">Well done! Next Question</button>
+      <button type="button" class="reset-btn btn btn-lg btn-danger">Oops! Wrong Answer, Try Again</button>
+
+  </div>
+  <div class = "final-text">
+      <h2><em>Congratulations! You have won the Quiz</em></h2>
+      <button type="button" class="repeat-btn btn btn-lg btn-danger">Take the quiz again :)</button>
+  </div>
+  </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
