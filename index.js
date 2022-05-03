@@ -126,7 +126,6 @@ function nextQuestion3(){
      else{
            $(".reset-btn").show();
            $(".first-quest").hide();
-           $(".fourth-quest").hide();
            $("#fourth-ans-correct").prop("disabled",true);
          $("#fourth-ans2").prop("disabled",true);
         $("#fourth-ans3").prop("disabled",true);
